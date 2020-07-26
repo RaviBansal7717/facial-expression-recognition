@@ -11,9 +11,6 @@ model_json_file=os.path.abspath("model.json")
 model_weights_file=os.path.abspath("model_weights.h5")
 model=load_model(model_json_file,model_weights_file)
 
-def upload_again():
-    st.info("Please Upload another Image")
-
 def layout():
     st.title("Facial Expression Recognition System")
     st.sidebar.title("Facial Expression Recognition System")
